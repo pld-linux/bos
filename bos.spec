@@ -11,6 +11,7 @@ Source0:	http://bos.seul.org/files/%{name}_%{_ver}.tar.gz
 # Source0-md5:	39e705ad6b4ae77e808cd88aabae361c
 Source1:	bos-run_script
 URL:		http://bos.seul.org/
+Requires:	stratagus
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
