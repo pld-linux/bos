@@ -7,10 +7,10 @@ Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Games/Strategy
-Source0:	http://www.nongnu.org/stratagus-bos/files/%{name}_%{_ver}.tar.gz
+Source0:	http://bos.seul.org/files/%{name}_%{_ver}.tar.gz
 # Source0-md5:	39e705ad6b4ae77e808cd88aabae361c
 Source1:	bos-run_script
-URL:		http://www.nongnu.org/stratagus-bos/
+URL:		http://bos.seul.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
