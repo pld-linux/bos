@@ -1,5 +1,5 @@
 Summary:	Invasion - Battle of Survival - a real-time strategy game using the Stratagus game engine
-Summary(pl):	Invasion - Battle of Survival - strategia czasu rzeczywistego korzystaj±c± z silnika Stratagus
+Summary(pl.UTF-8):   Invasion - Battle of Survival - strategia czasu rzeczywistego korzystajÄ…cÄ… z silnika Stratagus
 Name:		bos
 Version:	1.1
 %define _ver 1_1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Invasion - Battle of Survival is a real-time strategy game using the
 Stratagus game engine.
 
-%description -l pl
-Invasion - Battle of Survival jest strategi± czasu rzeczywistego
-korzystaj±c± z silnika Stratagus.
+%description -l pl.UTF-8
+Invasion - Battle of Survival jest strategiÄ… czasu rzeczywistego
+korzystajÄ…cÄ… z silnika Stratagus.
 
 %prep
 %setup -q -n %{name}_%{_ver}
